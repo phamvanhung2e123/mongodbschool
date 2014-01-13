@@ -1,0 +1,25 @@
+Thu Jan  9 02:46:13.384 [initandlisten] MongoDB starting : pid=1740 port=27018 dbpath=/data/rs2 32-bit host=precise32
+Thu Jan  9 02:46:13.384 [initandlisten] 
+Thu Jan  9 02:46:13.384 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Thu Jan  9 02:46:13.385 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Thu Jan  9 02:46:13.385 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Thu Jan  9 02:46:13.385 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Thu Jan  9 02:46:13.385 [initandlisten] 
+Thu Jan  9 02:46:13.385 [initandlisten] db version v2.4.8
+Thu Jan  9 02:46:13.385 [initandlisten] git version: a350fc38922fbda2cec8d5dd842237b904eafc14
+Thu Jan  9 02:46:13.385 [initandlisten] build info: Linux bs-linux32.10gen.cc 2.6.21.7-2.fc8xen #1 SMP Fri Feb 15 12:39:36 EST 2008 i686 BOOST_LIB_VERSION=1_49
+Thu Jan  9 02:46:13.386 [initandlisten] allocator: system
+Thu Jan  9 02:46:13.386 [initandlisten] options: { dbpath: "/data/rs2", fork: true, logpath: "2.log", port: 27018, replSet: "m101", smallfiles: true }
+************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+Thu Jan  9 02:46:13.387 [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+Thu Jan  9 02:46:13.387 dbexit: 
+Thu Jan  9 02:46:13.387 [initandlisten] shutdown: going to close listening sockets...
+Thu Jan  9 02:46:13.387 [initandlisten] shutdown: going to flush diaglog...
+Thu Jan  9 02:46:13.388 [initandlisten] shutdown: going to close sockets...
+Thu Jan  9 02:46:13.388 [initandlisten] shutdown: waiting for fs preallocator...
+Thu Jan  9 02:46:13.388 [initandlisten] shutdown: closing all files...
+Thu Jan  9 02:46:13.388 [initandlisten] closeAllFiles() finished
+Thu Jan  9 02:46:13.388 dbexit: really exiting now
